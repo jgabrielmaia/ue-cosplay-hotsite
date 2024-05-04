@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #2A2E33;
+    height: auto;
+    color: #fff;
+    overflow: hidden;
+}
+
+:root {
+    --pink: #EE408D;
+}
+
+@font-face {
+    font-family: 'Barlow-Light';
+    font-style: normal;
+    font-weight: 900;
+    src: url('assets/fonts/barlow/Barlow-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Barlow-900';
+    font-style: normal;
+    font-weight: 900;
+    src: url('assets/fonts/barlow/Barlow-ExtraBold.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 300;
+    src: url('assets/fonts/barlow/Barlow-Light.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Barlow-Condensed';
+    font-style: normal;
+    font-weight: 300;
+    src: url('assets/fonts/barlow-condensed/BarlowCondensed-Light.ttf') format('truetype')
+}

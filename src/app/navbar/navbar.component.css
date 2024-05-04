@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+}
