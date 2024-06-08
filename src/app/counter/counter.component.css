@@ -1,19 +1,21 @@
 .prize-container {
     display: inline-flex;
-    flex-direction: row;
-    align-items: self-start;
+    align-items: flex-start;
+    padding-top: 60px;
+    padding-bottom: 10px;
 }
 
 .currency {
-    font-size: 50pt;
-    vertical-align: super;
+    font-size: 44pt;
     font-family: 'Barlow';
-    color: var(--pink);
-    margin: 0px;
+    color: var(--orange);
+    margin: 0;
+    margin-right: 15px;
 }
 
 .prize{
-    font-size: 150pt;
-    align-self: flex-start;
+    margin: 0;
+    transform: translatey(-20%);
+    font-size: 180pt;
     font-family: 'Barlow-900';
 }

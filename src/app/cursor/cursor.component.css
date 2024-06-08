@@ -1,5 +1,5 @@
 .plate {
-    background-color: var(--pink);
+    background-color: var(--orange);
     transition: all 0.2s ease-out;
 }
 
@@ -17,9 +17,13 @@
 
 .plate.idle p {
     font-size: 24pt;
-    font-family: 'Barlow';
+    font-family: 'Barlow-Light';
     padding: 10%;
     text-align: center;
+}
+
+.followers {
+    font-family: 'Barlow';
 }
 
 .plate.move {
