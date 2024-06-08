@@ -1,14 +1,9 @@
-import { Component, HostListener, Input } from '@angular/core';
-import { DecimalPipe, NgClass } from '@angular/common';
+import { Directive, HostListener, Input } from '@angular/core';
 
-@Component({
-  selector: 'app-cursor',
-  standalone: true,
-  imports: [DecimalPipe, NgClass],
-  templateUrl: './cursor.component.html',
-  styleUrl: './cursor.component.css'
+@Directive({
+  selector: '[appMouseEnterListener]'
 })
-export class CursorComponent {
+export class CursorDirective {
   @Input() followers: number = 0;  
   mouseY: number = 0;
   mouseX: number = 0;
@@ -20,8 +15,8 @@ export class CursorComponent {
     this.mouseY = y;
   }
 
-  @HostListener('document:mousemove', ['$event'])
-  onMouseMove(event: MouseEvent) {
+  @HostListener('document:mouseenter', ['$event'])
+  onMouseEnter(event: MouseEvent) {
     this.updatePosition(event.clientX, event.clientY);
     clearTimeout(this.moveTimer);
     this.cursorClass = 'plate move';
