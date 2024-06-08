@@ -13,6 +13,6 @@ import { NavbarComponent } from './navbar/navbar.component';
 })
 export class AppComponent {
   followers: number = 2269;
-  quotation: number = 0.13;
+  quotation: number = 0.05;
   title = 'hotcounter';
 }

@@ -2,13 +2,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
+    justify-content: center;
     height: 80vh;
-    gap: 1px;
+    padding: 0;
+    margin: 0;
 }
 
 .title {
     font-family: 'Barlow-Light';
 }
+
 .description {
     font-family: 'Barlow-Condensed';
     font-size: 18pt;
